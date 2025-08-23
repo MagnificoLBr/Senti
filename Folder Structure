@@ -1,0 +1,34 @@
+├── api/                  # Backend APIs (GraphQL/REST)
+│   └── README.md
+│
+├── core/                 # Core logic: wallet abstraction + AI modules
+│   └── README.md
+│
+├── defi/                 # DeFi integrations (staking, yield, swaps)
+│   └── README.md
+│
+├── mobile/               # Mobile app frontend
+│   └── README.md
+│
+├── infra/                # Infra & deployment (Docker, Terraform, CI/CD)
+│   ├── docker/
+│   └── k8s/
+│
+├── tests/                # Unit & integration tests
+│
+├── docs/                 # Documentation (for devs + investors)
+│   ├── ARCHITECTURE.md
+│   ├── API.md
+│   ├── SECURITY.md
+│   └── ROADMAP.md
+│
+├── scripts/              # Helper scripts (migrations, data loaders)
+│
+├── .github/              # GitHub Actions / CI configs
+│
+├── .gitignore
+├── LICENSE.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── README.md
+└── CHANGELOG.md
